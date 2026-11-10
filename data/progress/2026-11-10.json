@@ -2,10 +2,14 @@
   "schema": 1,
   "domain": "progress",
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T02:38:23Z",
+  "generated_at": "2026-11-10T10:42:48Z",
   "metrics": [
     {
       "label": "Repositories",
+      "value": 43
+    },
+    {
+      "label": "GitHub repos",
       "value": 43
     },
     {
@@ -13,8 +17,8 @@
       "value": 41
     },
     {
-      "label": "GitHub repos",
-      "value": 43
+      "label": "Gitea archived",
+      "value": 41
     },
     {
       "label": "Bundles",
@@ -22,6 +26,10 @@
     },
     {
       "label": "Restores",
+      "value": 43
+    },
+    {
+      "label": "Reconciled",
       "value": 43
     },
     {
@@ -38,11 +46,7 @@
     },
     {
       "label": "Gitea metadata",
-      "value": 43
-    },
-    {
-      "label": "Issue backups",
-      "value": 43
+      "value": 41
     }
   ],
   "repositories": [
@@ -59,7 +63,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": false,
+      "reconciled": true,
+      "github_head": "1fbcbd0ca04072be348a843e1949ba7184aba8f4",
+      "bundle_head": "1fbcbd0ca04072be348a843e1949ba7184aba8f4",
+      "gitea_archived": false,
+      "gitea_soak_until": null
     },
     {
       "repo": ".github",
@@ -74,7 +83,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": false,
+      "reconciled": true,
+      "github_head": "3b74dab9d59b7534cda5b6114b09a450d63f1f3d",
+      "bundle_head": "3b74dab9d59b7534cda5b6114b09a450d63f1f3d",
+      "gitea_archived": false,
+      "gitea_soak_until": null
     },
     {
       "repo": "contract-json",
@@ -89,7 +103,12 @@
       "issues_backup": true,
       "pr_rule_verified": true,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "a33366e52729d3420a33078107357f689c18df64",
+      "bundle_head": "a33366e52729d3420a33078107357f689c18df64",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "contract-proto",
@@ -104,7 +123,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "f3dd4bb73cfae86c0ddce94c519a232eaeeb7afb",
+      "bundle_head": "f3dd4bb73cfae86c0ddce94c519a232eaeeb7afb",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "contract-graphql",
@@ -119,7 +143,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "573cc6a96e4ac5ebfa5e97404bec920dba833a95",
+      "bundle_head": "573cc6a96e4ac5ebfa5e97404bec920dba833a95",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-sh",
@@ -134,7 +163,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "655d24d834be50eaa78e43fff79f75a58f015c6a",
+      "bundle_head": "655d24d834be50eaa78e43fff79f75a58f015c6a",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-docker",
@@ -149,7 +183,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "a665dbb8828ff66832f98ffe5be8d05744192ee0",
+      "bundle_head": "a665dbb8828ff66832f98ffe5be8d05744192ee0",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-python",
@@ -164,7 +203,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "e69aefc356bde8ba7cad3c71fde0391f18c159d9",
+      "bundle_head": "e69aefc356bde8ba7cad3c71fde0391f18c159d9",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-cpp",
@@ -179,7 +223,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "2b5b2964fc59a96e9f9d3c362ecfff271f88e100",
+      "bundle_head": "2b5b2964fc59a96e9f9d3c362ecfff271f88e100",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-ts",
@@ -194,7 +243,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "4764868b504ed44cce6e6c2401f8f61b8601258e",
+      "bundle_head": "4764868b504ed44cce6e6c2401f8f61b8601258e",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-rs",
@@ -209,7 +263,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "c36244f843f68fd94cdf74cae83fb13fd3459d98",
+      "bundle_head": "c36244f843f68fd94cdf74cae83fb13fd3459d98",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-go",
@@ -224,7 +283,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "c07b58475073e7676c939214af27e0865caa448a",
+      "bundle_head": "c07b58475073e7676c939214af27e0865caa448a",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-java",
@@ -239,7 +303,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "2e97044af7f3edff8d43e29bd0b9cdbdbbf8be8d",
+      "bundle_head": "2e97044af7f3edff8d43e29bd0b9cdbdbbf8be8d",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-kotlin",
@@ -254,7 +323,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "d35e098f73aa664b2e5e0da39e79628bf3f6764e",
+      "bundle_head": "d35e098f73aa664b2e5e0da39e79628bf3f6764e",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-cs",
@@ -269,7 +343,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "e0d036018e3da55b9239a91b18571744c36e4845",
+      "bundle_head": "e0d036018e3da55b9239a91b18571744c36e4845",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-php",
@@ -284,7 +363,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "63228be27db7e86185e974260a7091cbf92d01ca",
+      "bundle_head": "63228be27db7e86185e974260a7091cbf92d01ca",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-rb",
@@ -299,7 +383,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "3147d9c6f647452d6e8c0c53196a447d1a4f7158",
+      "bundle_head": "3147d9c6f647452d6e8c0c53196a447d1a4f7158",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-ui",
@@ -314,7 +403,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "edcedb7048f1dec18073bb9f398bc2b68c9b9fe2",
+      "bundle_head": "edcedb7048f1dec18073bb9f398bc2b68c9b9fe2",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-terraform",
@@ -329,7 +423,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "9bdd5275def6c1517ef32f5eeb58acaed5f865e1",
+      "bundle_head": "9bdd5275def6c1517ef32f5eeb58acaed5f865e1",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-cdk",
@@ -344,7 +443,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "38cc386bc4c763396fa257eada9e9d7eeeede778",
+      "bundle_head": "38cc386bc4c763396fa257eada9e9d7eeeede778",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-elixir",
@@ -359,7 +463,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "2a4de8b9e1ac9518b41e80b78fe472d46e39b6f1",
+      "bundle_head": "2a4de8b9e1ac9518b41e80b78fe472d46e39b6f1",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-zig",
@@ -374,7 +483,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "985aee70a71910b2b37f33e4c481a71f768bdb51",
+      "bundle_head": "985aee70a71910b2b37f33e4c481a71f768bdb51",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-swift",
@@ -389,7 +503,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "6f14df74db26c72b2bbcf4b770c04a7ed7c2f4da",
+      "bundle_head": "6f14df74db26c72b2bbcf4b770c04a7ed7c2f4da",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-sql",
@@ -404,7 +523,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "aaa64a12bbd706273cf772b0f613f41ba5777bde",
+      "bundle_head": "aaa64a12bbd706273cf772b0f613f41ba5777bde",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-scala",
@@ -419,7 +543,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "8dfcc2acce0bca791d389adecee0ec905fd3f997",
+      "bundle_head": "8dfcc2acce0bca791d389adecee0ec905fd3f997",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "package-md",
@@ -434,7 +563,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "85153fc877e50ee37a2e8a415bfa456f69cc7a17",
+      "bundle_head": "85153fc877e50ee37a2e8a415bfa456f69cc7a17",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "workflow-event",
@@ -449,7 +583,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "3a2b2a9ad036f4ca58d28111c8295968d8ecd610",
+      "bundle_head": "3a2b2a9ad036f4ca58d28111c8295968d8ecd610",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "workflow-scheduled",
@@ -464,7 +603,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "4801dcc9b716cd59d7a945018ca18c5498cacc5c",
+      "bundle_head": "4801dcc9b716cd59d7a945018ca18c5498cacc5c",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "workflow-manual",
@@ -479,7 +623,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "f899ddee02a89a562a6ae3d6c5afe2618cb98c4a",
+      "bundle_head": "f899ddee02a89a562a6ae3d6c5afe2618cb98c4a",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "database-lottery",
@@ -494,7 +643,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "0590a00f6b34b58b938d4b02cde17e12bc19269e",
+      "bundle_head": "0590a00f6b34b58b938d4b02cde17e12bc19269e",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "database-news",
@@ -509,7 +663,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "5ea70e7a769e51437572f2b72ee0d4e0a27cf1ac",
+      "bundle_head": "5ea70e7a769e51437572f2b72ee0d4e0a27cf1ac",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "database-stocks",
@@ -524,7 +683,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "778703d7a261f2a7ab48805263e874e9f268554c",
+      "bundle_head": "778703d7a261f2a7ab48805263e874e9f268554c",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "database-agent",
@@ -539,7 +703,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "4d0e786a358af5745e684ae3fea4629b3055e39d",
+      "bundle_head": "4d0e786a358af5745e684ae3fea4629b3055e39d",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "database-devops",
@@ -554,7 +723,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "fefb00ac9f36a0b6b40b25212d0b89b299af0203",
+      "bundle_head": "fefb00ac9f36a0b6b40b25212d0b89b299af0203",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "game-sudoku",
@@ -569,7 +743,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "e9540b9b5601113a2cfb5f2bb85a7e72497df0c8",
+      "bundle_head": "e9540b9b5601113a2cfb5f2bb85a7e72497df0c8",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "game-logic-grid",
@@ -584,7 +763,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "7b9d2fe24d62db2fd42d4397a6e7d8313ee63e39",
+      "bundle_head": "7b9d2fe24d62db2fd42d4397a6e7d8313ee63e39",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "game-crosswords",
@@ -599,7 +783,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "a1f5951576b1c6b8a7ac4eeb60a7106950d9ebd4",
+      "bundle_head": "a1f5951576b1c6b8a7ac4eeb60a7106950d9ebd4",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "dashboard-devops",
@@ -614,7 +803,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "1011b4845bc1aae4a97148845b2e96d6fcc268ff",
+      "bundle_head": "1011b4845bc1aae4a97148845b2e96d6fcc268ff",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "dashboard-news",
@@ -629,7 +823,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "42fa62f7bb38a06b79a5e6aa0ea291423f346541",
+      "bundle_head": "42fa62f7bb38a06b79a5e6aa0ea291423f346541",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "dashboard-stocks",
@@ -644,7 +843,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "0ac2e55116e3c4f8cd1d688fd09c4c99940b9b2a",
+      "bundle_head": "0ac2e55116e3c4f8cd1d688fd09c4c99940b9b2a",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "dashboard-lottery",
@@ -659,7 +863,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "b43cc581d00be936e45578264a933ee47e561898",
+      "bundle_head": "b43cc581d00be936e45578264a933ee47e561898",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "dashboard-wiki",
@@ -674,7 +883,12 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "4162d03f2573c8df33956305ca2564ebc77db559",
+      "bundle_head": "4162d03f2573c8df33956305ca2564ebc77db559",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     },
     {
       "repo": "private",
@@ -689,7 +903,34 @@
       "issues_backup": true,
       "pr_rule_verified": false,
       "github_metadata": true,
-      "gitea_metadata": true
+      "gitea_metadata": true,
+      "reconciled": true,
+      "github_head": "b7e20adc55b4063b2f2015a46578eb5a0a9feb79",
+      "bundle_head": "b7e20adc55b4063b2f2015a46578eb5a0a9feb79",
+      "gitea_archived": true,
+      "gitea_soak_until": "2026-11-24"
     }
-  ]
+  ],
+  "gitea_archive": {
+    "mode": "archive",
+    "soak_until": "2026-11-24",
+    "report": "/srv/backup/reconciliation/gitea-archive-latest.json",
+    "archived": 41
+  },
+  "reconciliation": {
+    "generated_at": "2026-11-10T10:39:41Z",
+    "report": "/srv/backup/reconciliation/latest.json",
+    "summary": {
+      "repositories": 43,
+      "ok": 43,
+      "mismatch": 0,
+      "error": 0
+    }
+  },
+  "metadata": {
+    "github_index": "/srv/backup/github-metadata/index.json",
+    "gitea_index": "/srv/backup/gitea-metadata/index.json",
+    "github_exported_at": "2026-11-10T10:42:39Z",
+    "gitea_exported_at": "2026-11-10T10:40:19Z"
+  }
 }
