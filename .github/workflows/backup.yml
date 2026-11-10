@@ -10,7 +10,7 @@ permissions:
   actions: read
 jobs:
   backup:
-    uses: gardusi-gustavo/.github/.github/workflows/reusable-backup.yml@v0.1.1
+    uses: gardusi-gustavo/.github/.github/workflows/reusable-backup.yml@v0.2.1
     with:
       repository: gardusi-gustavo/database-devops
       retention: 3
