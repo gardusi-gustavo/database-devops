@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema",
+    "domain",
+    "date",
+    "generated_at",
+    "metrics",
+    "repositories"
+  ],
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "domain": {
+      "const": "devops"
+    },
+    "date": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "value"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": "number"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "repositories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "repo_name",
+          "workflow_status",
+          "pr_open_count"
+        ],
+        "properties": {
+          "repo_name": {
+            "type": "string"
+          },
+          "workflow_status": {
+            "type": "string"
+          },
+          "duration_ms": {
+            "type": "integer"
+          },
+          "pr_open_count": {
+            "type": "integer"
+          },
+          "backup_timestamp": {
+            "type": "string"
+          },
+          "health_score": {
+            "type": "number"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

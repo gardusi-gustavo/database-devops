@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "domain": "devops",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T00:00:00Z",
+  "metrics": [
+    {
+      "label": "Repositories",
+      "value": 41
+    },
+    {
+      "label": "Failing workflows",
+      "value": 0
+    },
+    {
+      "label": "Open PRs",
+      "value": 0
+    }
+  ],
+  "repositories": []
+}
