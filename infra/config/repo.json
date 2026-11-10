@@ -172,6 +172,15 @@
           ".json",
           ".md"
         ]
+      },
+      "docs/retired/": {
+        "allow_extensions": [
+          ".json",
+          ".md"
+        ],
+        "allow_names": [
+          ".gitkeep"
+        ]
       }
     },
     "forbid": [
