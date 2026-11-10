@@ -33,8 +33,16 @@
       "value": 8
     },
     {
+      "label": "GitHub metadata",
+      "value": 43
+    },
+    {
+      "label": "Gitea metadata",
+      "value": 43
+    },
+    {
       "label": "Issue backups",
-      "value": 1
+      "value": 43
     }
   ],
   "repositories": [
@@ -48,8 +56,10 @@
       "ruleset": false,
       "tasks": 0,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": ".github",
@@ -61,8 +71,10 @@
       "ruleset": false,
       "tasks": 0,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "contract-json",
@@ -75,7 +87,9 @@
       "tasks": 8,
       "issues_imported": 8,
       "issues_backup": true,
-      "pr_rule_verified": true
+      "pr_rule_verified": true,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "contract-proto",
@@ -87,8 +101,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "contract-graphql",
@@ -100,8 +116,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-sh",
@@ -113,8 +131,10 @@
       "ruleset": false,
       "tasks": 7,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-docker",
@@ -126,8 +146,10 @@
       "ruleset": false,
       "tasks": 7,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-python",
@@ -139,8 +161,10 @@
       "ruleset": false,
       "tasks": 7,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-cpp",
@@ -152,8 +176,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-ts",
@@ -165,8 +191,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-rs",
@@ -178,8 +206,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-go",
@@ -191,8 +221,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-java",
@@ -204,8 +236,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-kotlin",
@@ -217,8 +251,10 @@
       "ruleset": false,
       "tasks": 7,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-cs",
@@ -230,8 +266,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-php",
@@ -243,8 +281,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-rb",
@@ -256,8 +296,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-ui",
@@ -269,8 +311,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-terraform",
@@ -282,8 +326,10 @@
       "ruleset": false,
       "tasks": 7,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-cdk",
@@ -295,8 +341,10 @@
       "ruleset": false,
       "tasks": 7,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-elixir",
@@ -308,8 +356,10 @@
       "ruleset": false,
       "tasks": 7,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-zig",
@@ -321,8 +371,10 @@
       "ruleset": false,
       "tasks": 7,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-swift",
@@ -334,8 +386,10 @@
       "ruleset": false,
       "tasks": 7,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-sql",
@@ -347,8 +401,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-scala",
@@ -360,8 +416,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "package-md",
@@ -373,8 +431,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "workflow-event",
@@ -386,8 +446,10 @@
       "ruleset": false,
       "tasks": 39,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "workflow-scheduled",
@@ -399,8 +461,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "workflow-manual",
@@ -412,8 +476,10 @@
       "ruleset": false,
       "tasks": 8,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "database-lottery",
@@ -425,8 +491,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "database-news",
@@ -438,8 +506,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "database-stocks",
@@ -451,8 +521,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "database-agent",
@@ -464,8 +536,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "database-devops",
@@ -477,8 +551,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "game-sudoku",
@@ -490,8 +566,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "game-logic-grid",
@@ -503,8 +581,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "game-crosswords",
@@ -516,8 +596,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "dashboard-devops",
@@ -529,8 +611,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "dashboard-news",
@@ -542,8 +626,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "dashboard-stocks",
@@ -555,8 +641,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "dashboard-lottery",
@@ -568,8 +656,10 @@
       "ruleset": false,
       "tasks": 6,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "dashboard-wiki",
@@ -581,8 +671,10 @@
       "ruleset": false,
       "tasks": 9,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     },
     {
       "repo": "private",
@@ -594,8 +686,10 @@
       "ruleset": false,
       "tasks": 0,
       "issues_imported": 0,
-      "issues_backup": false,
-      "pr_rule_verified": false
+      "issues_backup": true,
+      "pr_rule_verified": false,
+      "github_metadata": true,
+      "gitea_metadata": true
     }
   ]
 }
